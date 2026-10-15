@@ -12,9 +12,9 @@ const SERVICES = [
   ['Sistemas', 'Dashboards, automações e sistemas sob medida para o seu dia a dia.', ['Dashboards', 'Automação', 'Integrações']],
 ]
 const TEAM = [
-  ['Sophia', 'Fundadora', 'Criadora e Desenvolvedora Full Stack'],
-  ['Chrystian', 'CMO', 'Chief Marketing Officer'],
-  ['Raquel', 'CFO', 'Chief Financial Officer'],
+  ['Sophia Honorato', 'Fundadora', 'Criadora e Desenvolvedora Full Stack'],
+  ['Chrystian Alexandre', 'CMO', 'Chief Marketing Officer'],
+  ['Raquel Machado', 'CFO', 'Chief Financial Officer'],
 ]
 const WHY = [['Energia jovem', 'Ideias novas, sem medo de testar e inovar.'], ['Design limpo', 'Layouts modernos que guiam e geram confiança.'], ['Time único', 'Marketing, finanças, sites e sistemas juntos.'], ['Feito pra crescer', 'Começamos pequenos e crescemos com você.']]
 const STEPS = [['Descoberta', 'Entendemos seu negócio e seu público.'], ['Estratégia', 'Traçamos o plano sob medida.'], ['Execução', 'Criamos, desenvolvemos e colocamos no ar.'], ['Evolução', 'Medimos, ajustamos e melhoramos.']]
@@ -223,7 +223,7 @@ export default function App() {
       <section className="sec about" id="sobre">
         <span className="eyebrow mono">// Sobre a Louder</span>
         <Words className="h2" text="Ideias que geram movimento. Grandes ideias precisam de uma voz alta." hl={['movimento']} />
-        <Reveal><p>Somos uma empresa iniciante fundada por Sophia, Chrystian e Raquel. Unimos marketing, finanças, sites e sistemas com criatividade, energia e muita vontade de entregar resultado.</p></Reveal>
+        <Reveal><p>Somos uma empresa iniciante fundada por Sophia Honorato, Chrystian Alexandre e Raquel Machado. Unimos marketing, finanças, sites e sistemas com criatividade, energia e muita vontade de entregar resultado.</p></Reveal>
       </section>
 
       <section className="sec" id="servicos">
