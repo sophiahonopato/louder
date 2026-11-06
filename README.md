@@ -1,28 +1,26 @@
 # LOUDER®
 
-> **We make brands impossible to ignore.**
+> **We make tech events impossible to ignore.**
 
-A **Made by Louder** é uma empresa criativa que une estratégia, marketing, audiovisual e tecnologia para transformar ideias em marcas com presença, personalidade e impacto.
+A **Made by Louder** é uma agência de marketing voltada a eventos tech. Unimos marketing, audiovisual e sites para dar a cada evento a cara e o alcance que ele merece.
 
-Acreditamos que marcas fortes não precisam apenas estar presentes. Elas precisam ser reconhecidas, lembradas e ouvidas.
+Eventos de tecnologia têm comunidades incríveis por trás, mas o design e a comunicação nem sempre estão à altura delas. A Louder nasceu para mudar isso.
 
-**Não criamos apenas conteúdo. Criamos presença.**
+**Sua comunidade já faz o evento. A gente faz ele ser ouvido.**
 
 ---
 
 ## ✳️ What We Do
 
-- **Branding & Identity** — Construção de identidades visuais e posicionamento de marca.
-- **Digital Marketing** — Estratégias digitais para fortalecer marcas e ampliar sua presença.
-- **Audiovisual Production** — Produção e edição de vídeos com direção criativa e propósito.
-- **Creative Content** — Conteúdo estratégico para redes sociais e campanhas.
-- **Web & Technology** — Experiências digitais e soluções tecnológicas para marcas e negócios.
+- **Marketing** — Estratégia, identidade visual, social media e divulgação para o evento lotar.
+- **Audiovisual** — Foto, vídeo, cobertura e aftermovie antes, durante e depois do evento.
+- **Sites** — Sites e landing pages rápidos, feitos para apresentar o evento e gerar inscrições.
 
 ## ⚡ Our Philosophy
 
-Criatividade sem estratégia é ruído. Estratégia sem execução é apenas intenção.
+Um bom evento merece uma comunicação tão boa quanto o seu conteúdo.
 
-Na Louder, conectamos ideias, design e tecnologia para desenvolver projetos que comunicam com clareza e deixam uma impressão duradoura.
+Na Louder, cuidamos de tudo em um só lugar: do plano de divulgação à cobertura do evento, passando pelo site e pelas peças.
 
 ## 🌐 Explore Louder
 
@@ -30,23 +28,14 @@ Na Louder, conectamos ideias, design e tecnologia para desenvolver projetos que 
 
 ## 👥 The People Behind Louder
 
-Fundada por **Sophia e Raquel**, a Louder nasce da união entre criatividade, visão estratégica e vontade de construir algo relevante.
+Fundada por **Sophia e Raquel**, a Louder nasce da vontade de dar às comunidades tech uma voz à altura do que elas constroem.
 
-Somos uma nova geração de criadores construindo marcas, experiências e projetos com ambição de longo prazo.
-
-## 💻 Digital Presence
-
-- Website institucional desenvolvido para apresentar a marca e seus serviços.
-- Presença digital alinhada à identidade visual da Louder.
-- Projetos criativos que conectam comunicação, audiovisual e tecnologia.
+- **Sophia Honorato** — Fundadora. Videomaker, editora de vídeo, desenvolvedora e criadora de conteúdo.
+- **Raquel Machado** — Co-founder. Marketing e operações.
 
 ---
 
 <p align="center">
   <strong>LOUDER®</strong><br>
-  Make your brand heard.
-</p>
-
-<p align="center">
-  <a href="https://madebylouder.vercel.app">Website</a>
+  Make your event heard.
 </p>
