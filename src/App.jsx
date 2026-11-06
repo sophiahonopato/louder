@@ -6,22 +6,21 @@ const PATH = 'M0-100C6-40 40-6 100 0 40 6 6 40 0 100-6 40-40 6-100 0-40-6-6-40 0
 const Star = ({ fill = 'currentColor', ...p }) => <svg viewBox="-100 -100 200 200" {...p}><path d={PATH} fill={fill} /></svg>
 
 const SERVICES = [
-  ['Marketing', 'Posicionamento, conteúdo e redes sociais para sua marca ser ouvida.', ['Estratégia', 'Social media', 'Conteúdo', 'Vídeo']],
-  ['Finanças', 'Organização financeira simples para o negócio crescer com segurança.', ['Fluxo de caixa', 'Planejamento', 'Indicadores']],
-  ['Sites', 'Landing pages e sites rápidos, animados e feitos para converter.', ['UX/UI', 'Landing pages', 'Responsivo', 'SEO']],
-  ['Sistemas', 'Dashboards, automações e sistemas sob medida para o seu dia a dia.', ['Dashboards', 'Automação', 'Integrações']],
+  ['Marketing', 'Estratégia, design e divulgação para o seu evento lotar e a comunidade lembrar dele.', ['Estratégia', 'Identidade visual', 'Social media', 'Divulgação']],
+  ['Audiovisual', 'Foto, vídeo e cobertura que mostram a energia do evento antes, durante e depois.', ['Cobertura', 'Foto', 'Vídeo', 'Aftermovie']],
+  ['Sites', 'Sites e landing pages rápidos, feitos para apresentar o evento e gerar inscrições.', ['UX/UI', 'Landing pages', 'Responsivo', 'SEO']],
 ]
 const TEAM = [
-  ['Sophia Honorato', 'Fundadora', 'Criadora e Desenvolvedora Full Stack'],
-  ['Chrystian Alexandre', 'CMO', 'Chief Marketing Officer'],
-  ['Raquel Machado', 'CFO', 'Chief Financial Officer'],
+  ['Sophia Honorato', 'Fundadora', 'Videomaker, editora de vídeo, desenvolvedora e criadora de conteúdo'],
+  ['Raquel Machado', 'Co-founder', 'Marketing e operações'],
 ]
-const WHY = [['Energia jovem', 'Ideias novas, sem medo de testar e inovar.'], ['Design limpo', 'Layouts modernos que guiam e geram confiança.'], ['Time único', 'Marketing, finanças, sites e sistemas juntos.'], ['Feito pra crescer', 'Começamos pequenos e crescemos com você.']]
-const STEPS = [['Descoberta', 'Entendemos seu negócio e seu público.'], ['Estratégia', 'Traçamos o plano sob medida.'], ['Execução', 'Criamos, desenvolvemos e colocamos no ar.'], ['Evolução', 'Medimos, ajustamos e melhoramos.']]
+const WHY = [['Foco em eventos tech', 'Nosso trabalho é fazer eventos de tecnologia serem vistos.'], ['Design à altura', 'Uma comunicação tão boa quanto o conteúdo do seu evento.'], ['Time único', 'Marketing, audiovisual e sites juntos, em um só lugar.'], ['Energia jovem', 'Ideias novas, sem medo de testar e inovar.']]
+const STEPS = [['Descoberta', 'Entendemos seu evento, sua comunidade e seu público.'], ['Estratégia', 'Traçamos o plano de divulgação até o dia do evento.'], ['Execução', 'Criamos as peças, o site e a cobertura.'], ['Evolução', 'Medimos o resultado e preparamos a próxima edição.']]
 const FAQ = [
-  ['Quem está por trás da Louder?', 'A Louder foi fundada por Sophia (criadora e desenvolvedora full stack), Chrystian (CMO) e Raquel (CFO). Somos uma empresa nova, com muita energia e capricho em cada projeto.'],
-  ['O que a Louder oferece?', 'Marketing, finanças, criação de sites e desenvolvimento de sistemas para pequenas empresas e novos negócios.'],
-  ['Quanto tempo leva um projeto?', 'Uma landing page costuma levar de 2 a 3 semanas. Combinamos o prazo com você antes de começar.'],
+  ['Quem está por trás da Louder?', 'A Louder foi fundada por Sophia (videomaker, editora de vídeo, desenvolvedora e criadora de conteúdo) e Raquel (marketing e operações). Somos uma agência nova, com muita energia e capricho em cada projeto.'],
+  ['O que a Louder oferece?', 'Marketing, audiovisual e sites para eventos de tecnologia.'],
+  ['Vocês atendem eventos de comunidade?', 'Sim! Eventos feitos por comunidades tech são justamente o motivo de a Louder existir.'],
+  ['Quanto tempo leva um projeto?', 'Uma landing page costuma levar de 2 a 3 semanas. Quanto antes do evento começarmos, melhor: combinamos o prazo com você.'],
   ['Como pedir um orçamento?', 'É só preencher o formulário de contato. Respondemos com uma proposta personalizada.'],
 ]
 
@@ -90,13 +89,13 @@ function Hero({ ready }) {
   const intro = (d) => ({ initial: { opacity: 0, y: 40 }, animate: ready ? { opacity: 1, y: 0 } : {}, transition: { duration: 0.9, delay: d, ease } })
   return (
     <section id="hero" ref={ref}>
-      <motion.span className="mono" style={{ position: 'absolute', top: 110, color: '#8a8a94' }} {...intro(0.2)}>Marketing / Finanças / Sites / Sistemas</motion.span>
+      <motion.span className="mono" style={{ position: 'absolute', top: 110, color: '#8a8a94' }} {...intro(0.2)}>Marketing / Audiovisual / Sites</motion.span>
       <motion.h1 className="big title" style={{ x: tx }} aria-label="LOUDER">
         {'LOUDER'.split('').map((l, i) => <span className="lm" key={i}><motion.i initial={{ y: '110%' }} animate={ready ? { y: 0 } : {}} transition={{ delay: i * 0.07, duration: 0.9, ease }} whileHover={{ color: ['#fff', '#DFFF00', '#7C3AED', '#fff'], transition: { duration: 0.8 } }}>{l}</motion.i></span>)}<sup>®</sup>
       </motion.h1>
       <div className="hrow">
-        <motion.p {...intro(0.7)}>Uma empresa jovem, com ideias que fazem sua marca ser <b style={{ color: '#DFFF00', fontWeight: 500 }}>ouvida</b>.</motion.p>
-        <motion.div className="tags mono" {...intro(0.85)}>{['Marketing', 'Finanças', 'Sites', 'Sistemas'].map((t, i) => <span key={t}>(0{i + 1}) {t}</span>)}</motion.div>
+        <motion.p {...intro(0.7)}>A agência de marketing para eventos tech. Fazemos o seu evento ser <b style={{ color: '#DFFF00', fontWeight: 500 }}>ouvido</b>.</motion.p>
+        <motion.div className="tags mono" {...intro(0.85)}>{['Marketing', 'Audiovisual', 'Sites'].map((t, i) => <span key={t}>(0{i + 1}) {t}</span>)}</motion.div>
       </div>
     </section>
   )
@@ -140,7 +139,7 @@ function Marquee() {
   const f = useTransform(sv, (v) => 1 + Math.min(Math.abs(v) / 300, 5))
   useAnimationFrame((_, d) => base.set(base.get() - d * 0.01 * f.get()))
   const x = useTransform(base, (v) => `${(((v % 50) + 50) % 50) - 50}%`)
-  const set = ['Marketing', 'Finanças', 'Sites', 'Sistemas', 'Louder']
+  const set = ['Eventos tech', 'Marketing', 'Audiovisual', 'Sites', 'Louder']
   return <div className="marq"><motion.div className="track" style={{ x }}>{[0, 1, 2, 3].map((k) => set.map((w) => <span key={k + w}>{w}<Star /></span>))}</motion.div></div>
 }
 
@@ -203,7 +202,7 @@ export default function App() {
   function enviar(e) {
     e.preventDefault()
     const f = new FormData(e.target)
-    const texto = `Olá, Louder! Vim pelo site.\n\n*Nome:* ${f.get('nome')}\n*E-mail:* ${f.get('email')}\n*Projeto:* ${f.get('mensagem')}`
+    const texto = `Olá, Louder! Vim pelo site.\n\n*Nome:* ${f.get('nome')}\n*E-mail:* ${f.get('email')}\n*Evento:* ${f.get('mensagem')}`
     window.open(`https://wa.me/5511989521208?text=${encodeURIComponent(texto)}`, '_blank')
     setSent(true)
   }
@@ -222,8 +221,8 @@ export default function App() {
 
       <section className="sec about" id="sobre">
         <span className="eyebrow mono">// Sobre a Louder</span>
-        <Words className="h2" text="Ideias que geram movimento. Grandes ideias precisam de uma voz alta." hl={['movimento']} />
-        <Reveal><p>Somos uma empresa iniciante fundada por Sophia Honorato, Chrystian Alexandre e Raquel Machado. Unimos marketing, finanças, sites e sistemas com criatividade, energia e muita vontade de entregar resultado.</p></Reveal>
+        <Words className="h2" text="Comunidades fazem eventos incríveis. Falta uma voz à altura." hl={['incríveis']} />
+        <Reveal><p>Somos uma agência de marketing voltada a eventos tech, fundada por Sophia Honorato e Raquel Machado. Vimos que os eventos têm comunidades incríveis por trás, mas um design que não está à altura delas. Por isso cuidamos do marketing, do audiovisual e do site para o seu evento ter a cara e o alcance que merece.</p></Reveal>
       </section>
 
       <section className="sec" id="servicos">
@@ -248,14 +247,14 @@ export default function App() {
         <Words className="h2" text="Capricho, criatividade e compromisso em cada projeto." hl={['criatividade']} />
         <motion.div className="grid4" initial="h" whileInView="s" viewport={{ once: true, margin: '-10%' }} transition={{ staggerChildren: 0.12 }}>{WHY.map(([t, d]) => <Tilt key={t} t={t} d={d} />)}</motion.div>
         <div className="stats">
-          <div className="stat"><b><Count to={3} /></b><span className="mono">Pessoas no time</span></div>
-          <div className="stat"><b><Count to={4} /></b><span className="mono">Áreas de atuação</span></div>
+          <div className="stat"><b><Count to={TEAM.length} /></b><span className="mono">Pessoas no time</span></div>
+          <div className="stat"><b><Count to={SERVICES.length} /></b><span className="mono">Áreas de atuação</span></div>
         </div>
       </section>
 
       <section className="sec" id="processo">
         <span className="eyebrow mono">// Processo</span>
-        <Words className="h2" text="Como transformamos sua ideia em resultado." hl={['resultado']} />
+        <Words className="h2" text="Como fazemos seu evento acontecer antes do palco." hl={['palco']} />
         <Steps />
       </section>
 
@@ -267,13 +266,13 @@ export default function App() {
 
       <section className="sec" id="contato">
         <span className="eyebrow mono">// Contato</span>
-        <Words className="h2" text="Hora de fazer sua marca ser ouvida." hl={['ouvida']} />
+        <Words className="h2" text="Hora de fazer seu evento ser ouvido." hl={['ouvido']} />
         <AnimatePresence mode="wait">
           {sent ? <motion.p key="ok" className="mono acc" style={{ marginTop: 40 }} initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }}>✦ Abrimos o WhatsApp para você. É só apertar enviar!</motion.p> :
             <motion.form key="f" exit={{ opacity: 0, y: -20 }} onSubmit={enviar}>
               <input required name="nome" placeholder="Nome *" />
               <input required name="email" type="email" placeholder="E-mail *" />
-              <textarea required name="mensagem" rows={3} placeholder="Conte sobre seu projeto *" />
+              <textarea required name="mensagem" rows={3} placeholder="Conte sobre seu evento *" />
               <motion.button className="cta" style={{ justifySelf: 'start' }} whileHover={{ scale: 1.06 }} whileTap={{ scale: 0.94 }}>Enviar pelo WhatsApp ↗</motion.button>
             </motion.form>}
         </AnimatePresence>
