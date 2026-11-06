@@ -30,7 +30,7 @@ Na Louder, conectamos ideias, design e tecnologia para desenvolver projetos que 
 
 ## 👥 The People Behind Louder
 
-Fundada por **Chrystian, Sophia e Raquel**, a Louder nasce da união entre criatividade, visão estratégica e vontade de construir algo relevante.
+Fundada por **Sophia e Raquel**, a Louder nasce da união entre criatividade, visão estratégica e vontade de construir algo relevante.
 
 Somos uma nova geração de criadores construindo marcas, experiências e projetos com ambição de longo prazo.
 
