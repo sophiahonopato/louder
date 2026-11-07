@@ -31,7 +31,7 @@ Na Louder, cuidamos de tudo em um só lugar: do plano de divulgação à cobertu
 Fundada por **Sophia e Raquel**, a Louder nasce da vontade de dar às comunidades tech uma voz à altura do que elas constroem.
 
 - **Sophia Honorato** — Fundadora. Videomaker, editora de vídeo, desenvolvedora e criadora de conteúdo.
-- **Raquel Machado** — Co-founder. Marketing e operações.
+- **Raquel Machado** — Co-founder. Videomaker, estrategista de marketing, gestora de operações e analista de dados.
 
 ---
 

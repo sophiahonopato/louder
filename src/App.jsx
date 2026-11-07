@@ -12,12 +12,12 @@ const SERVICES = [
 ]
 const TEAM = [
   ['Sophia Honorato', 'Fundadora', 'Videomaker, editora de vídeo, desenvolvedora e criadora de conteúdo'],
-  ['Raquel Machado', 'Co-founder', 'Marketing e operações'],
+  ['Raquel Machado', 'Co-founder', 'Videomaker, estrategista de marketing, gestora de operações e analista de dados'],
 ]
 const WHY = [['Foco em eventos tech', 'Nosso trabalho é fazer eventos de tecnologia serem vistos.'], ['Design à altura', 'Uma comunicação tão boa quanto o conteúdo do seu evento.'], ['Time único', 'Marketing, audiovisual e sites juntos, em um só lugar.'], ['Energia jovem', 'Ideias novas, sem medo de testar e inovar.']]
 const STEPS = [['Descoberta', 'Entendemos seu evento, sua comunidade e seu público.'], ['Estratégia', 'Traçamos o plano de divulgação até o dia do evento.'], ['Execução', 'Criamos as peças, o site e a cobertura.'], ['Evolução', 'Medimos o resultado e preparamos a próxima edição.']]
 const FAQ = [
-  ['Quem está por trás da Louder?', 'A Louder foi fundada por Sophia (videomaker, editora de vídeo, desenvolvedora e criadora de conteúdo) e Raquel (marketing e operações). Somos uma agência nova, com muita energia e capricho em cada projeto.'],
+  ['Quem está por trás da Louder?', 'A Louder foi fundada por Sophia (videomaker, editora de vídeo, desenvolvedora e criadora de conteúdo) e Raquel (videomaker, estrategista de marketing, gestora de operações e analista de dados). Somos uma agência nova, com muita energia e capricho em cada projeto.'],
   ['O que a Louder oferece?', 'Marketing, audiovisual e sites para eventos de tecnologia.'],
   ['Vocês atendem eventos de comunidade?', 'Sim! Eventos feitos por comunidades tech são justamente o motivo de a Louder existir.'],
   ['Quanto tempo leva um projeto?', 'Uma landing page costuma levar de 2 a 3 semanas. Quanto antes do evento começarmos, melhor: combinamos o prazo com você.'],
